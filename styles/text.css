@@ -1,14 +1,52 @@
-div.header {
-    position: fixed;
-    background-color: rgb(255, 155, 155);
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
+.nav-container-left img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
 }
 
-p, a, h1 {
-    font-family: Arial, Helvetica, sans-serif;
+
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.nav-container-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container a {
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 32px;
+  text-align: center;
+  margin: auto;
+}
+
+.nav-container a.get-free-quote-link {
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 32px;
+  text-align: center;
+  margin: auto;
+}
+
+.nav-container a:hover {
+  background-color: blue;
+  color: white;
 }
