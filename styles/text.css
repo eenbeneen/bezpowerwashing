@@ -1,31 +1,20 @@
-div.header {
-    position: fixed;
-    background-color: rgb(255, 155, 155);
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100px;
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: auto;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.nav-container-left {
     display: flex;
     flex-direction: row;
 }
 
-
-.main-header {
-    background-color: blue;
-    color: white;
-    height: 50px;
-    width: 100%;
-    border: 20px solid rgb(248, 243, 43);
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-}
-
-.nav-container {
+.nav-container-right {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 20px 0;
+    flex-direction: row;
 }
 
 .nav-container a {
@@ -34,8 +23,20 @@ div.header {
     font-weight: bold;
     text-decoration: none;
     padding: 10px 20px;
-    border: 2px solid blue;
-    border-radius: 5px;
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-container a.get-free-quote-link {
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
 }
 
 .nav-container a:hover {
