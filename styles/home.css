@@ -10,7 +10,12 @@
     color: white;
     top: 20%;
     left: 25%;
-    padding: 100px;
+    padding: 150px;
+}
+
+.home-hook-container p :hover {
+    color: rgb(190, 190, 190);
+    transition: color .5s;
 }
 
 .intro {
@@ -20,7 +25,8 @@
     width: 500px;
     text-align: left;
     padding: 20px;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
