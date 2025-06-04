@@ -8,6 +8,7 @@
 .home-hook-container p {
     font-size: 56px;
     color: white;
+<<<<<<< Updated upstream
     top: 20%;
     left: 25%;
     padding: 150px;
@@ -31,3 +32,29 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
+=======
+    padding: 250px;
+}
+
+.intro {
+  background-color: rgb(14, 121, 178);
+  color: white;
+  font-size: 1.25rem;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-our-services-container {
+    background-color: aliceblue;
+}
+
+.home-our-services-container h1 {
+    color: rgb(14, 121, 178);
+    text-align: center;
+    font-size: 64px;
+}
+>>>>>>> Stashed changes
