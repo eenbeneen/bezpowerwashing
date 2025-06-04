@@ -9,6 +9,36 @@
     font-size: 56px;
     color: white;
     padding: 250px;
+    transition: color .5s ease;
+}
+
+
+.home-hook-container p:hover {
+    color: rgb(190, 190, 190);
+}
+
+
+
+
+.home-our-services-container {
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+
+.home-our-services-container h1 {
+    color: rgb(14, 121, 178);
+    text-align: center;
+    font-size: 64px;
+}
+
+.info-sec {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1200px;
+
 }
 
 .intro {
@@ -24,13 +54,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.home-our-services-container {
-    background-color: aliceblue;
-    margin-top: 100px;
-}
-
-.home-our-services-container h1 {
+.ratings {
+    background-color: rgb(190, 190, 190);
     color: rgb(14, 121, 178);
-    text-align: center;
-    font-size: 64px;
+    font-size: 1.25rem;
+    width: 500px;
+    text-align: left;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

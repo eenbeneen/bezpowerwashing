@@ -32,7 +32,9 @@
   font-size: 24px;
   text-align: center;
   margin: auto;
+  transition: color .5s ease;
 }
+
 
 .header-container a.get-free-quote-link {
   background-color: rgb(14, 121, 178);
@@ -43,9 +45,10 @@
   text-align: center;
   margin: auto;
   border-radius: 10px;
+  transition: color .5s ease;
 }
 
+
 .header-container a:hover {
-  color: rgb(134, 135, 132);
-  transition: color .5s;
+  color: rgb(190, 190, 190);
 }
