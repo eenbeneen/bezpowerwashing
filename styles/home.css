@@ -8,28 +8,12 @@
 .home-hook-container p {
     font-size: 56px;
     color: white;
-    top: 20%;
-    left: 25%;
-    padding: 150px;
+    padding: 250px;
 }
 
 .home-hook-container p :hover {
     color: rgb(190, 190, 190);
     transition: color .5s;
-}
-
-.intro {
-    background-color: rgb(14, 121, 178);
-    color: white;
-    font-size: 1.25rem;
-    width: 500px;
-    text-align: left;
-    padding: 20px;
-    margin-left: 100px;
-    margin-top: 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
 }
 
 .intro {
