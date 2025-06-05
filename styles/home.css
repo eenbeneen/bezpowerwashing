@@ -106,4 +106,12 @@
     background-color: rgb(14, 121, 178);
 }
 
-    
+.service-comp {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1200px;
+
+}
