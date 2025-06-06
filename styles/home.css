@@ -54,6 +54,21 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.ratings {
+    background-color: rgb(190, 190, 190);
+    color: rgb(14, 121, 178);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.25rem;
+    width: 500px;
+    text-align: left;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .home-our-services-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,23 +88,8 @@
 }
 
 .home-our-services-description h1 {
-    padding-top: 100px;
-    font-size: 48px;
-}
-
-.ratings {
-    background-color: rgb(190, 190, 190);
-    color: rgb(14, 121, 178);
-    text-align: center;
-    padding-top: 100px;
-    font-size: 1.25rem;
-    width: 500px;
-    text-align: left;
-    padding: 20px;
-    margin-right: auto;
-    margin-top: 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+    font-size: 50px;
 }
 
 .home-our-services-description p {
@@ -98,6 +98,8 @@
     max-width: 700px;
     margin: 0 auto;
     color: rgb(14, 121, 178);
+    contain: content;
+    border-bottom: 2px;
 }
 
 .home-our-services-picture {
@@ -113,5 +115,27 @@
     align-items: flex-start;
     margin: 40px auto;
     max-width: 1200px;
+
+}
+
+.services-area {
+    background-color: rgb(14, 121, 178);
+    color: white;
+    width: 700px;
+    padding: 40px;
+    margin-right: 200px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.comp-pics {
+    background-color: white;
+    color: rgb(175, 175, 175);
+}
+
+.comp-pics img {
+    max-block-size: 300px;
+
 
 }
