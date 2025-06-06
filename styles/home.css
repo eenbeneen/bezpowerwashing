@@ -1,3 +1,16 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
 .home-hook-container {
     width: 100%;
     height: 750px;
@@ -121,21 +134,47 @@
 .services-area {
     background-color: rgb(14, 121, 178);
     color: white;
-    width: 700px;
+    width: 100%;
     padding: 40px;
-    margin-right: 200px;
+    margin-right: 400px;
+    contain: layout;
     text-align: left;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .comp-pics {
-    background-color: white;
+    width: 100%;
+    position: relative;
+    padding: 20px;
     color: rgb(175, 175, 175);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.comp-pics img {
-    max-block-size: 300px;
+.image-stack {
+    position: relative;
+    width: fit-content;
+    margin-left: 100px auto;
+}
 
+.image-stack img {
+    max-height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
 
+.image-stack img:nth-child(2) {
+    top: 250px;
+    right: 200px;
+    z-index: 1;
+}
+
+.image-stack img:nth-child(1) {
+    z-index: 1;
 }
