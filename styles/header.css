@@ -6,32 +6,33 @@
   padding: 10px 20px;
 }
 
-.header-container-left {
-  justify-content: right;
-}
-
 .header-container-left img {
   width: 120px;
   object-fit: contain;
 }
 
+/* Right side: nav links */
 .header-container-right {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  /* ✅ allows links to wrap if needed */
   justify-content: center;
+  gap: 10px;
+  max-width: 100%;
 }
 
-
+/* Links style */
 .header-container a {
   padding: 8px 16px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: white;
   color: rgb(14, 121, 178);
   text-decoration: none;
   text-align: center;
   border-radius: 6px;
   transition: color .5s ease;
+  white-space: nowrap;
+  /* ✅ prevents breaking text to new lines */
 }
 
 .header-container a.get-free-quote-link {
@@ -43,24 +44,25 @@
   color: rgb(190, 190, 190);
 }
 
-
+/* 🔧 Mobile adjustments */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
 
   .header-container-right {
     flex-direction: row;
+    /* ✅ stay side by side */
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     width: 100%;
+    margin-top: 10px;
   }
 
-  .header-container-right a {
+  .header-container a {
     font-size: 1rem;
-    padding: 8px 10px;
+    padding: 10px;
   }
 }
