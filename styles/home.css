@@ -103,13 +103,13 @@ img {
   justify-content: center;
   gap: 30px;
   padding: 40px 20px;
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .services-area,
 .comp-pics {
-  flex: 1 1 300px;
+  flex: 1 1 400px;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -130,13 +130,19 @@ img {
   width: 100%;
   max-width: 400px;
   margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .image-stack img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
-  position: relative 10px;
+  position: relative;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .image-stack img:nth-child(2) {
@@ -148,9 +154,14 @@ img {
   z-index: 2;
 }
 
-@media (max-width:1200) {
+@media (max-width: 1024px) {
   .home-our-services-container {
     grid-template-columns: 1fr;
+  }
+
+  .service-comp {
+    flex-direction: column;
+    align-items: center;
   }
 
   .image-stack img:nth-child(2) {
@@ -167,19 +178,10 @@ img {
   .image-stack {
     max-width: 300px;
   }
-}
 
-@media (max-width: 480px) {
-  .home-hook-container p {
-    font-size: 1.5rem;
+  .services-area,
+  .image-stack {
+    padding: 20px;
+    max-width: 100%;
   }
-
-  .home-our-services-title {
-    font-size: 2rem;
-  }
-
-  .home-our-services-description p {
-    font-size: 1rem;
-  }
-
 }
