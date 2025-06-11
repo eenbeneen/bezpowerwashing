@@ -44,25 +44,23 @@
 }
 
 
-@media (max-width: 1024px) {
-  .header-container {
-    justify-content: right;
-  }
-}
-
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
   .header-container-right {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
   }
-}
 
-@media (max-width: 80px) {
-  .header-container a {
+  .header-container-right a {
     font-size: 1rem;
+    padding: 8px 10px;
   }
 }
