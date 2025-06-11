@@ -20,8 +20,8 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  max-width: 1024px;
 }
+
 
 .header-container a {
   padding: 8px 16px;
