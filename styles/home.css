@@ -27,6 +27,7 @@ img {
 
 .home-hook-container p:hover {
   color: rgb(190, 190, 190);
+
 }
 
 .info-sec {
@@ -109,7 +110,7 @@ img {
 .services-area,
 .comp-pics {
   flex: 1 1 300px;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -133,7 +134,7 @@ img {
 
 .image-stack img {
   border-radius: 10px;
-  position: absolute;
+  position: relative 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
@@ -147,7 +148,7 @@ img {
   z-index: 2;
 }
 
-@media (max-width: 1024px) {
+@media (max-width:1200) {
   .home-our-services-container {
     grid-template-columns: 1fr;
   }

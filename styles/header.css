@@ -7,7 +7,7 @@
 }
 
 .header-container-left {
-    justify-content: center;
+  justify-content: right;
 }
 
 .header-container-left img {
@@ -45,8 +45,8 @@
 
 
 @media (max-width: 1024px) {
-  .header-container-right {
-    justify-content: center;
+  .header-container {
+    justify-content: right;
   }
 }
 
@@ -61,7 +61,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 80px) {
   .header-container a {
     font-size: 1rem;
   }
