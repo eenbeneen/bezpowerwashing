@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: rgb(129, 128, 128);
+    background-color: rgb(124, 124, 124);
     width: 100%;
 }
 
@@ -26,7 +26,6 @@
     list-style: none;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .footer-container-categories {
         flex-direction: column;
