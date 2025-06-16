@@ -1,18 +1,37 @@
 .footer-container {
-    background-color: black;
+    background-color: rgb(129, 128, 128);
+    width: 100%;
 }
 
 .footer-container-categories {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
-    padding: 25px 100px;
+    padding: 25px 5%;
     color: white;
+    justify-content: space-between;
 }
 
 .footer-container-categories a {
     color: white;
+    text-decoration: none;
+}
+
+.footer-container-categories a:hover {
+    text-decoration: underline;
 }
 
 .footer-container-categories ul {
-    padding: 0 20px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container-categories {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
 }
