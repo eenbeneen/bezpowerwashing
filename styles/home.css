@@ -147,11 +147,11 @@ img {
 
 .image-stack img:nth-child(2) {
   top: 40px;
-  left: 40px;
+  left: 20px;
 }
 
 .image-stack img:nth-child(1) {
-  z-index: 2;
+  z-index: 3;
 }
 
 @media (max-width: 1024px) {
