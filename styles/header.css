@@ -17,13 +17,12 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  max-width: 100%;
 }
 
 /* Links style */
 .header-container a {
   padding: 8px 16px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   background-color: white;
   color: rgb(14, 121, 178);
   text-decoration: none;
@@ -60,7 +59,7 @@
   }
 
   .header-container a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 10px;
   }
 }
