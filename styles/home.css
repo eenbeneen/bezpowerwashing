@@ -55,6 +55,7 @@ img {
 .ratings {
   background-color: rgb(190, 190, 190);
   color: rgb(14, 121, 178);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-our-services-container {
@@ -79,8 +80,7 @@ img {
   padding: 20px;
   border-radius: 10px;
   height: auto;
-  
-  margin:auto;
+  margin: auto;
 }
 
 .home-our-services-description h1 {
