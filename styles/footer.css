@@ -10,6 +10,8 @@
     padding: 25px 5%;
     color: white;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .footer-container-categories a {
