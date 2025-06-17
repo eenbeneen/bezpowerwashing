@@ -177,12 +177,12 @@ img {
   }
 
   .image-stack {
-    max-width: 300px;
+    max-width: 100%;
   }
 
   .services-area,
   .image-stack {
-    padding: 10px;
+    padding: 0px;
     max-width: 100%;
   }
 }
