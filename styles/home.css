@@ -155,7 +155,7 @@ img {
   z-index: 3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .home-our-services-container {
     grid-template-columns: 1fr;
     padding: 0;
@@ -204,5 +204,9 @@ img {
   .home-our-services-title {
     margin-top: 20px;
     margin-bottom: 0;
+  }
+
+  .image-stack img:nth-child(2) {
+    max-width: 95%;
   }
 }
