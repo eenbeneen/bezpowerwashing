@@ -78,12 +78,13 @@ img {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  width: 100%;
+  height: auto;
+  
+  margin:auto;
 }
 
 .home-our-services-description h1 {
   font-size: 2rem;
-  padding-top: 20px;
   text-align: center;
   color: rgb(14, 121, 178);
 }
