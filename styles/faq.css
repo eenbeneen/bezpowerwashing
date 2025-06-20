@@ -34,7 +34,7 @@ body {
 }
 
 .faq-questions-container p,
-ul {
+.faq-questions-container ul {
     font-style: italic;
     font-size: 18px;
 }
