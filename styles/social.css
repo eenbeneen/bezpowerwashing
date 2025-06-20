@@ -24,8 +24,13 @@ body {
 }
 
 .contact-container p {
+  color: inherit;
   width: 100%;
   text-align: center;
   font-size: 1.2rem;
   margin-bottom: 20px;
+}
+
+a:visited {
+  color: inherit;
 }
