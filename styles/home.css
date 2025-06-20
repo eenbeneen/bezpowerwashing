@@ -157,7 +157,7 @@ img {
   z-index: 3;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .home-our-services-container {
     grid-template-columns: 1fr;
     padding: 0;
