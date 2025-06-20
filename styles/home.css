@@ -128,7 +128,6 @@ img {
 
 .image-stack {
   position: relative;
-  width: 100%;
   max-width: 400px;
   margin: auto;
   padding: 20px;
@@ -155,58 +154,10 @@ img {
   z-index: 3;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .home-our-services-container {
     grid-template-columns: 1fr;
     padding: 0;
     margin: 0;
-  }
-
-  .service-comp {
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  .image-stack img:nth-child(2) {
-    top: 20px;
-    left: 20px;
-  }
-
-  .home-hook-container p {
-    font-size: 2rem;
-  }
-
-  .home-hook-container {
-    padding: 20px 0;
-    margin: 0;
-  }
-
-  .image-stack {
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .services-area,
-  .image-stack {
-    padding: 0px;
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .info-sec {
-    padding: 0;
-    margin: 0;
-  }
-
-  .home-our-services-title {
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
-
-  .image-stack img:nth-child(2) {
-    max-width: 95%;
   }
 }
