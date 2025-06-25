@@ -48,22 +48,25 @@
           <img src="assets/images/gutterafter.jpeg" alt="Gallery Image 4">
         </div>
         <div class="gallery-item">
-          <video controls width="250">
+          <video class="custom-video" width="250" autoplay muted loop playsinline>
             <source src="assets/images/vid1.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <button class="mute-btn">Mute</button>
         </div>
         <div class="gallery-item">
-          <video controls width="250">
+          <video class="custom-video" width="250" autoplay muted loop playsinline>
             <source src="assets/images/vid2.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <button class="mute-btn">Mute</button>
         </div>
         <div class="gallery-item">
-          <video controls width="250">
+          <video class="custom-video" width="250" autoplay muted loop playsinline>
             <source src="assets/images/vid3.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+          <button class="mute-btn">Mute</button>
         </div>
         
       </div>
@@ -112,5 +115,19 @@
           </div>
       </div>
     </footer>
+
+    <script>
+      document.querySelectorAll('.gallery-item').forEach(function(item) {
+        const video = item.querySelector('.custom-video');
+        const btn = item.querySelector('.mute-btn');
+        if (video && btn) {
+          btn.textContent = video.muted ? "Unmute" : "Mute";
+          btn.onclick = function() {
+            video.muted = !video.muted;
+            btn.textContent = video.muted ? "Unmute" : "Mute";
+          };
+        }
+      });
+    </script>
  </body>
 </html>
