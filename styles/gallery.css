@@ -110,7 +110,7 @@ html, body {
   }
   .gallery-item img,
   .gallery-item video {
-    max-height: 140px;
+    max-height: 200px; /* Increased from 140px */
   }
 }
 
@@ -125,6 +125,6 @@ html, body {
   }
   .gallery-item img,
   .gallery-item video {
-    max-height: 110px;
+    max-height: 180px; /* Increased from 110px */
   }
 }
