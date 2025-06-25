@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 .gallery-container {
@@ -55,7 +56,6 @@ html, body {
 .gallery-item video {
   width: 100%;
   height: auto;
-  max-height: 200px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(14, 121, 178, 0.10);
   transition: transform 0.3s;
