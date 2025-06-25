@@ -60,7 +60,7 @@ html, body {
   box-shadow: 0 2px 8px rgba(14, 121, 178, 0.10);
   transition: transform 0.3s;
   background: #eaf6fb;
-  object-fit: cover;
+  object-fit: contain; /* Changed from cover to contain */
 }
 
 .gallery-item img:hover,
@@ -99,18 +99,12 @@ html, body {
   display: none;
 }
 
+/* Responsive adjustments */
 @media (max-width: 900px) {
-  .gallery-grid {
-    gap: 14px;
-  }
-  .gallery-item {
-    max-width: 45vw;
-    min-width: 120px;
-    padding: 6px;
-  }
   .gallery-item img,
   .gallery-item video {
-    max-height: 200px; /* Increased from 140px */
+    max-height: 240px; /* Slightly taller for medium screens */
+    object-fit: contain; /* Ensure full content is visible */
   }
 }
 
@@ -125,6 +119,7 @@ html, body {
   }
   .gallery-item img,
   .gallery-item video {
-    max-height: 180px; /* Increased from 110px */
+    max-height: 260px; /* Even taller for small screens */
+    object-fit: contain; /* Ensure full content is visible */
   }
 }
