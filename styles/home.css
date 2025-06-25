@@ -12,7 +12,8 @@ img {
 
 
 .home-hook-container {
-  background-color: rgb(14, 121, 178);
+  background: #2a489b;
+  background: linear-gradient(90deg, rgba(42, 72, 155, 1) 0%, rgba(14, 121, 178, 1) 50%, rgba(83, 170, 237, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +22,7 @@ img {
 }
 
 .home-hook-container p {
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: white;
   max-width: 90%;
 }
@@ -55,7 +56,7 @@ img {
 }
 
 .ratings {
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(210, 210, 210);
   color: rgb(14, 121, 178);
   font-family: Arial, Helvetica, sans-serif;
 }
