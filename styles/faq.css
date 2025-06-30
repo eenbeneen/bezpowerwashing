@@ -1,47 +1,88 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #eaf6fb 0%, #f5f5f5 100%);
+    min-height: 100vh;
 }
 
 .faq-hook-container {
-  background: #2a489b;
-  background: linear-gradient(90deg, rgba(42, 72, 155, 1) 0%, rgba(14, 121, 178, 1) 50%, rgba(83, 170, 237, 1) 100%);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 80px;
-  color: white;
+    background: linear-gradient(90deg, rgba(42, 72, 155, 1) 0%, rgba(14, 121, 178, 1) 50%, rgba(83, 170, 237, 1) 100%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 64px 16px 48px 16px;
+    color: white;
+    border-radius: 0 0 32px 32px;
+    box-shadow: 0 8px 32px rgba(14, 121, 178, 0.10);
 }
 
 .faq-hook-container h1 {
-    font-size: 52px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
 }
 
 .faq-hook-container p {
-    font-size: 24px;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .faq-questions-container {
+    background: #fff;
     color: rgb(14, 121, 178);
-    max-width: 1200px;
-    margin: auto;
-    padding-bottom: 40px;
+    max-width: 900px;
+    margin: -40px auto 40px auto;
+    padding: 40px 40px 32px 40px;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(14, 121, 178, 0.10), 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .faq-questions-container h1 {
-    font-size: 40px;
-    padding: 30px 0;
-    color: black;
+    font-size: 2rem;
+    padding: 24px 0 10px 0;
+    color: rgb(14, 121, 178);
+    border-bottom: 2px solid #eaf6fb;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.faq-questions-container h2 {
+    font-size: 1.2rem;
+    margin: 18px 0 6px 0;
+    color: #0e7db2;
+    font-weight: 600;
 }
 
 .faq-questions-container p,
 .faq-questions-container ul {
-    font-style: italic;
-    font-size: 18px;
+    font-style: normal;
+    font-size: 1.08rem;
+    color: #222;
+    margin-bottom: 12px;
 }
 
-@media (max-width: 1250px) {
+.faq-questions-container ul {
+    padding-left: 24px;
+}
+
+@media (max-width: 900px) {
     .faq-questions-container {
-        padding: 20px;
+        padding: 20px 8px 16px 8px;
+        max-width: 99vw;
+    }
+
+    .faq-hook-container {
+        padding: 36px 4vw 24px 4vw;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .faq-hook-container h1 {
+        font-size: 2rem;
+    }
+
+    .faq-hook-container p {
+        font-size: 1.05rem;
     }
 }
