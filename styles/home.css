@@ -1,8 +1,10 @@
 /* Home Page Styles */
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #eaf6fb 0%, #f5f5f5 100%);
+    min-height: 100vh;
 }
 
 img {
@@ -12,16 +14,16 @@ img {
 
 
 .home-hook-container {
-  background-color: rgb(14, 121, 178);
+  background: linear-gradient(90deg, rgba(42, 72, 155, 1) 0%, rgba(14, 121, 178, 1) 50%, rgba(83, 170, 237, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .home-hook-container p {
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: white;
   max-width: 90%;
 }
@@ -55,7 +57,7 @@ img {
 }
 
 .ratings {
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(210, 210, 210);
   color: rgb(14, 121, 178);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -82,7 +84,7 @@ img {
 }
 
 .home-our-services-title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
   color: rgb(14, 121, 178);
   margin-top: 60px;
@@ -133,6 +135,7 @@ img {
 .services-area {
   background-color: rgb(14, 121, 178);
   color: white;
+  max-width: 95%;
 }
 
 .comp-pics {
@@ -197,6 +200,10 @@ img {
 }
 
 @media (max-width: 900px) {
+  .home-hook-container p {
+    font-size: 2rem;
+  }
+
   .home-our-services-container {
     grid-template-columns: 1fr;
     padding: 0;
@@ -206,18 +213,12 @@ img {
   .service-comp {
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    margin: 0;
   }
 
   .image-stack img:nth-child(2) {
     top: 20px;
     left: 20px;
     max-width: 95%;
-  }
-
-  .home-hook-container p {
-    font-size: 2rem;
   }
 
   .home-hook-container {
@@ -232,9 +233,7 @@ img {
 
   .services-area,
   .image-stack {
-    padding: 0px;
     max-width: 100%;
-    margin: 0;
   }
 
   .info-sec {
@@ -243,7 +242,7 @@ img {
 
   .home-our-services-title {
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 
   .comp-pics {

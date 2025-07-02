@@ -1,14 +1,15 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #eaf6fb 0%, #f5f5f5 100%);
+    min-height: 100vh;
 }
-
 .about-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  width: 96%;
+  width: 85%;
   max-width: 1200px;
   margin: 48px auto 32px auto;
   gap: 36px;
@@ -61,14 +62,13 @@ body {
   .about-main {
     flex-direction: column;
     gap: 20px;
-    margin: 20px 0;
-    padding: 0 10px;
+    margin: 20px;
+    padding: 10px 10px;
   }
 
   .about-container,
   .about-image-container {
     padding: 20px 10px;
-    min-width: 0;
   }
 }
 
