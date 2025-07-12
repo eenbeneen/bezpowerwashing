@@ -136,6 +136,7 @@ img {
   background-color: rgb(14, 121, 178);
   color: white;
   max-width: 95%;
+  text-align: center; /* Center all text inside */
 }
 
 .comp-pics {
